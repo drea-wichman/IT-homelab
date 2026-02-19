@@ -43,11 +43,11 @@ Building a home lab environment to gain hands-on experience with IT fundamentals
 - Oracle VirtualBox 7.0 (to start I think)
 - Eventually try VMware Workstation Player
 
-### Phase 1: Environment Setup
+### Phase 1: Environment Setup + Intentions
 - Install and configure VirtualBox
-- Create Windows Server 2022 VM - Active Directory practice
-- Set up Windows 10  - pretend it's a help desk client's computer
-- Install Ubuntu 22.04 Desktop VM - learn Linux
+- Create Windows Server 2022 VM - to get Active Directory practice
+- Set up Windows 10  - to pretend it's a help desk client's computer
+- Install Ubuntu 22.04 Desktop VM - to learn Linux
 
 
 ### Phase 2: Active Directory Lab
