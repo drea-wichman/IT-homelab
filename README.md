@@ -58,3 +58,14 @@ Building a home lab environment to gain hands-on experience with IT fundamentals
 
 ## Progress Log
 *Will update as I build it out and practice, more often after I've completed A+ exam*
+
+### February 21, 2026
+- Downloaded/installed VirtualBox 7.0 on HP EliteDesk
+- Troubleshot missing Visual C++ 2019 and resolved
+- Downloaded/installed Windows Server 2022
+- :) Created 1st VM: Windows Server 2022
+- Installed Windows Server 2022 with desktop experience
+- Configured static IP: 192.168.1.10
+- Installed Active Directory Domain Services role
+- Promoted server to Domain Controller
+- Created domain: lab.local and first user: Jane Doe (jdoe@lab.local)
