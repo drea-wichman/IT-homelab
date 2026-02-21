@@ -57,7 +57,7 @@ After AD DS installed → clicked notification flag → "Promote this server to 
 - Forest/Domain functional level: Windows Server 2016
 - Enabled DNS server and Global Catalog
 
-**What I learned:** The LAYERS. A "forest" is the top-level in the AD structure. The "domain" (lab.local) lives inside the forest. In bigger companies, you might have multiple domains in one forest.  
+**Notes:** The LAYERS. A "forest" is the top-level in the AD structure. The "domain" (lab.local) lives inside the forest. In bigger companies, you might have multiple domains in one forest.  
 **Example - Forest: Drea's Coffee Company  
 **Domains: corporate.dreascoffee.com, retail.dreascoffee.com, roastery.dreascoffee.com  
 **Users: jane@corporate.dreascoffee.com (HR), sarah@retail.dreascoffee.com (barista)
