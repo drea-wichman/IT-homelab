@@ -77,6 +77,10 @@ Server automatically restarted after.
 
 Confirmed Jane appeared in the Users folder!
 
+<img width="1044" height="864" alt="jane doe" src="https://github.com/user-attachments/assets/ad5d6c64-39ff-4bdd-8529-dfe395f0775e" />
+
+
+
 ## What's Next
 
 - Create a Windows 10 VM (employee role)
