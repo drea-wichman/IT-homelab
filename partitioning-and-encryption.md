@@ -1,7 +1,7 @@
-# Partitioning & Encryption
+
 
 ## Overview
-Hands-on lab covering disk partitioning, dual-boot OS installation, and USB encryption
+Hands-on labs covering disk partitioning, dual-boot OS installation, USB encryption, and full disk encryption
 
 ## Homelab Environment
 - **Primary OS:** Windows 10 Pro
@@ -24,7 +24,6 @@ Install Ubuntu alongside Windows 10 Pro on my EliteDesk homelab to create a dual
 7. Ran `sudo update-grub` in Ubuntu terminal to detect Windows and add it to the GRUB menu
 8. Wiped the bootable USB and reformatted as NTFS for reuse
 
-
 ### Final Partition Layout
 | EFI | 100MB | Bootloader |
 
@@ -36,6 +35,7 @@ Install Ubuntu alongside Windows 10 Pro on my EliteDesk homelab to create a dual
 
 ### Result
 Dual boot confirmed. GRUB menu shows both Ubuntu and Windows OS options at startup.
+
 
 <img width="900" height="1200" alt="IMG_5747" src="https://github.com/user-attachments/assets/6e7e5a52-52ec-40c6-b014-3bad38b25073" />
 
@@ -52,9 +52,6 @@ Never used PowerShell before until this. Extremely familiar with Ubuntu installe
 ### Goal
 Encrypt a USB drive using VeraCrypt to store files
 
-### Tools
-- VeraCrypt
-
 ### Steps
 1. Downloaded and installed VeraCrypt on Windows
 2. Created encrypted volume on USB drive
@@ -65,11 +62,31 @@ Encrypt a USB drive using VeraCrypt to store files
 - Cross-platform compatible mainly
 - Open source and independently audited
 
-- - -
-
-## Skills
+## Notes - Learned about...
 - Disk partitioning and managing volumes
 - Dual-boot configuration and GRUB loader
 - BitLocker troubleshooting
 - USB drive encryption with VeraCrypt
 - Physical hardware OS installation
+
+- - -
+
+## Part 3: Full Disk Encryption
+
+### Goal 1
+Do FileVault Full Disk Encryption on personal MacBook and iMac
+
+### Steps
+1. Identified that neither devices had FileVault enabled: System Settings > Privacy & Security > Firevualt
+2. Enabled FileVault
+3. Used the login passwords as the decryption keys and stored offline
+
+### Goal 2
+Complete Windows Device Encryption on personal Lenovo laptop
+
+### Steps
+1. Settings > Privacy & Security > Device Encryption > Enabled
+2. Found 48-digit BitLocker recovery key from Microsoft account online and stored offline
+
+### Result
+All personal devices now have full disk encryption enabled. Data is protected at rest if any device is lost or stolen.
