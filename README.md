@@ -1,14 +1,17 @@
 # IT Home Lab Setup
 
 ## Overview
-Building a home lab environment to gain hands-on experience with IT fundamentals
+Hands-on home lab environment for IT fundamentals, system administration, and security practice.
+Will update as I build it out, more often now that A+ is done.
 
-## My Goals
-- Work with Windows Server and Active Directory(!!!)
-- Practice hardware troubleshooting and component installation
-- Configure network settings and connectivity
-- Manage multiple OS and virtual machines
-- Simulate IT support scenarios
+## What I've Built
+
+- ✅ Windows Server 2022 domain controller with Active Directory
+- ✅ Dual-boot Windows 10 Pro + Ubuntu 24.04
+- ✅ Encrypted USB drive with VeraCrypt
+- ✅ Full disk encryption on all personal devices
+- 🔄 Phase 2 Active Directory — in progress
+- 🔄 Ubuntu practice — in progress
 
 ## Lab Components
 
@@ -34,30 +37,28 @@ Building a home lab environment to gain hands-on experience with IT fundamentals
 - **Refresh Rate:** 144Hz
 
 **Additional Equipment:**
-- Ancient MacBook Air running Ubuntu - Linux command line practice for coffee shop study days
+- Ancient MacBook Air running Ubuntu — Linux command line practice for coffee shop study days
 
-  
 ### Software
 
 **Virtualization Platform:**
-- Oracle VirtualBox 7.0 (to start I think)
-- Eventually try VMware Workstation Player
+- Oracle VirtualBox 7.0
+- Eventually want to try VMware Workstation Player
 
-### Phase 1: Environment Setup + Intentions
-- Install and configure VirtualBox
-- Create Windows Server 2022 VM - to get Active Directory practice
-- Set up Windows 10  - to pretend it's a help desk client's computer
-- Install Ubuntu 22.04 Desktop VM - to learn Linux
+## Phase 1: Environment Setup ✅
 
+- Installed and configured VirtualBox
+- Created Windows Server 2022 VM
+- Set up Windows 10 as client machine
+- Installed Ubuntu 24.04 via dual boot
 
-### Phase 2: Active Directory Lab
+## Phase 2: Active Directory Lab 🔄
 
-
-  (That's all I have planned so far. The rest is TBD...)
-
+(That's all I have planned so far. The rest is TBD...)
 
 ## Progress Log
-*Will update as I build it out and practice, more often after I've completed A+ exam*
+
+*Will update as I build it out and practice*
 
 ### February 21, 2026
 - Downloaded/installed VirtualBox 7.0 on HP EliteDesk
