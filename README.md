@@ -2,7 +2,7 @@
 
 ## Overview
 Hands-on home lab environment for IT fundamentals, system administration, and security practice.
-Will update as I build it out, more often now that A+ is done.
+Updated as the lab evolves.
 
 ## What I've Built
 
