@@ -1,4 +1,4 @@
-# IT Home Lab Setup
+# Home Lab Setup
 
 ## Overview
 Hands-on home lab environment for IT fundamentals, system administration, and security practice.
