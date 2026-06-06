@@ -1,72 +1,20 @@
-# Home Lab Setup
+# Lab Notes
 
-## Overview
-Hands-on home lab environment for IT fundamentals, system administration, and security practice.
-Updated as the lab evolves.
+Hands-on security and infrastructure work. Home lab, personal security architecture, and a running build log.
 
-## What I've Built
+## What's Here
 
-- ✅ Windows Server 2022 domain controller with Active Directory
-- ✅ Dual-boot Windows 10 Pro + Ubuntu 24.04
-- ✅ Encrypted USB drive with VeraCrypt
-- ✅ Full disk encryption on all personal devices
-- 🔄 Phase 2 Active Directory — in progress
-- 🔄 Ubuntu practice — in progress
+### [Build Log](build-log.md)
 
-## Lab Components
+Dated, reverse-chronological record of infrastructure projects.
 
-### Hardware
+### [Homelab](homelab/)
 
-**Desktop Computer:**
-- **Model:** HP EliteDesk 800 G3 Desktop Mini (eBay refurb)
-- **CPU:** Intel Core i7-7700 (7th Gen, Quad-Core, 3.6GHz)
-- **RAM:** 32GB DDR4
-- **Storage:** 256GB SSD
-- **Graphics:** Intel HD Graphics 630
-- **Operating System:** Windows 10 Pro
-- **Ports:** 
-  - 1x USB Type-C
-  - 6x USB 3.1
-  - 2x DisplayPort
-  - 1x HDMI
-  - 1x Ethernet (RJ-45)
+Active Directory domain lab built on an HP EliteDesk 800 G3 (32GB RAM, dual-boot Windows 10 Pro / Ubuntu 24.04).
 
-**Monitor:**
-- **Model:** LG 24G411A-B Ultragear
-- **Display:** 24-inch Full HD IPS (1920x1080)
-- **Refresh Rate:** 144Hz
+- [Active Directory Setup](homelab/active-directory-setup.md): Windows Server 2022 domain controller, domain-joined client VM
+- [Partitioning and Encryption](homelab/partitioning-and-encryption.md): full disk encryption, VeraCrypt, dual-boot partition layout
 
-**Additional Equipment:**
-- Ancient MacBook Air running Ubuntu — Linux command line practice for coffee shop study days
+### [Personal OpSec Setup](personal-opsec-setup.md)
 
-### Software
-
-**Virtualization Platform:**
-- Oracle VirtualBox 7.0
-- Eventually want to try VMware Workstation Player
-
-## Phase 1: Environment Setup ✅
-
-- Installed and configured VirtualBox
-- Created Windows Server 2022 VM
-- Set up Windows 10 as client machine
-- Installed Ubuntu 24.04 via dual boot
-
-## Phase 2: Active Directory Lab 🔄
-
-(That's all I have planned so far. The rest is TBD...)
-
-## Progress Log
-
-*Will update as I build it out and practice*
-
-### February 21, 2026
-- Downloaded/installed VirtualBox 7.0 on HP EliteDesk
-- Troubleshot missing Visual C++ 2019 and resolved
-- Downloaded/installed Windows Server 2022
-- :) Created 1st VM: Windows Server 2022
-- Installed Windows Server 2022 with desktop experience
-- Configured static IP: 192.168.1.10
-- Installed Active Directory Domain Services role
-- Promoted server to Domain Controller
-- Created domain: lab.local and first user: Jane Doe (jdoe@lab.local)
+Custom domain email with DKIM/SPF/DMARC, alias-based privacy, and DNS-level security controls.
